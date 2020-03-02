@@ -1,0 +1,43 @@
+#smokey {
+  font-family: sans-serif;
+  // padding: 0%;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+
+  transform: translate(-50%, -50%);
+
+  h1 {
+    // font-weight: 5em;
+    animation: animate 2.5s linear ;
+  }
+  p {
+    font-size: 1.25em;
+    font-weight: bold;
+    animation: animate 2.5s linear;
+
+    a {
+      color: #3986D3;
+      text-decoration: none;
+      }
+
+  }
+}
+@keyframes animate {
+  0%{
+    filter: blur(0);
+  }
+  40%{
+    filter: blur(20px);
+  }
+  80%{
+    filter: blur(0);
+  }
+  100%{
+    filter: blur(0);
+  }
+  0%{
+    filter: blur(0);
+  }
+
+}

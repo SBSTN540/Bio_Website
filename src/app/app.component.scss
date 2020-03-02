@@ -1,0 +1,67 @@
+$primary: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #3ABAFF 100%);
+
+body {
+    background-image: radial-gradient(73% 147%, #F8FCFF 59%, #FBFDFF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
+    height: auto;
+}
+
+header {
+
+}
+
+#navbar {
+    font-family: 'ZCOOL KuaiLe';
+    background: $primary;
+    padding: 1em 0;
+    width: 100%;
+    // height: 100px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a.logo {
+        padding: 1em;
+        font-weight: bold;
+        &:hover {
+            background: #ffffff;
+            color: #22E1FF;
+        }
+    }
+
+    nav {
+        float: right;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+
+            li a {
+                padding: 1em;
+
+                &:hover {
+                  background: #ffffff;
+                  color: #3ABAFF;
+                }
+            }
+        }
+    }
+}
+
+#footer {
+  background:#3ABAFF;
+  width: 100%;
+  height:20px;
+  position:fixed;
+  bottom: 0px;
+  padding: 1em 0;
+
+
+  font-family: sans-serif;
+  font-weight:lighter;
+  color: white;
+  text-align: center;
+
+}

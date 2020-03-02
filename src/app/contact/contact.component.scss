@@ -1,0 +1,33 @@
+.req::after{
+  // font-weight: bold;
+  content: "*";
+  color:#00FF13;
+}
+
+label {
+  text-align: left;
+}
+
+#container {
+  padding: 50px;
+  width:60%;
+  height: 600px;
+  // left:50%;
+  text-align: center;
+  // top:150px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  background: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #3ABAFF 100%);
+  border-radius: 10px;
+}
+
+#contactForm {
+  // background: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  // margin: 0 auto;
+
+  // left: 50%;
+}
