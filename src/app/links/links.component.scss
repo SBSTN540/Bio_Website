@@ -1,0 +1,51 @@
+.button_card {
+  // text-align: left;
+  // display: inline;
+  // margin: 50px;
+  padding: 50px;
+
+}
+
+.card_content {
+  // padding-top: 1%;
+  // padding-left: 90%;
+  // padding-right: 90%;
+  // margin-left: 1%;
+  padding-top: 15px;
+  width: 80%;
+  text-align: left;
+  float: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  // background-color: black;
+}
+
+button {
+  // padding: 5%;
+  float: left;
+  margin: 15px;
+  width: 2 auto;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#linkedin_button {
+  height: 75px;
+  width: 75px;
+  // background-image: linear-gradient(to right, #1CB5E0,#076680 );
+  // background-color: #009BC7;
+  // font-size: 25px;
+  // font-weight: bold;
+  // color: white;
+}
+
+
+#github_button {
+  height: 75px;
+  width: 75px;
+  // background-image: linear-gradient(to right, #1CB5E0,#076680 );
+  // background-color: black;
+  // font-size: 25px;
+  // font-weight: lighter;
+  // color: white;
+}
