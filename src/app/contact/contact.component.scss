@@ -15,7 +15,8 @@ label {
   // left:50%;
   text-align: center;
   // top:150px;
-  margin-top: 50px;
+  margin-top: 150px;
+  // margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
   background: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #3ABAFF 100%);
@@ -30,4 +31,13 @@ label {
   // margin: 0 auto;
 
   // left: 50%;
+}
+
+#sbutton {
+  font-family: 'ZCOOL Kuaile';
+  font-weight: bold;
+  font-size: 15px;
+  background-color: white;
+  color: #00FF13;
+  border-radius: 5px;
 }
