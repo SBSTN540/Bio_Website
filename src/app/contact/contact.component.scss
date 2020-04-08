@@ -1,3 +1,5 @@
+$primary: linear-gradient(-225deg, black 0%, #363636 48%, #B9B9B9 100%);
+
 .req::after{
   // font-weight: bold;
   content: "*";
@@ -19,7 +21,7 @@ label {
   // margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
-  background: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #3ABAFF 100%);
+  background: $primary;
   border-radius: 10px;
 }
 
@@ -38,6 +40,6 @@ label {
   font-weight: bold;
   font-size: 15px;
   background-color: white;
-  color: #00FF13;
+  color: black;
   border-radius: 5px;
 }

@@ -1,4 +1,4 @@
-$primary: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #3ABAFF 100%);
+$primary: linear-gradient(-225deg, black 0%, #363636 48%, #B9B9B9 100%);
 // $primary: linear-gradient(-225deg, #000000   30%, #AFAFAF 48%, #000001 100%);
 
 body {
@@ -26,8 +26,8 @@ header {
         padding: 1em;
         font-weight: bold;
         &:hover {
-            background: #ffffff;
-            color: #22E1FF;
+            background: white;
+            color: black;
         }
     }
 
@@ -43,8 +43,8 @@ header {
                 padding: 1em;
 
                 &:hover {
-                  background: #ffffff;
-                  color: #3ABAFF;
+                  background: white;
+                  color: black;
                 }
             }
         }
@@ -52,7 +52,7 @@ header {
 }
 
 #footer {
-  background:#3ABAFF;
+  background:black;
   width: 100%;
   height:20px;
   position:fixed;

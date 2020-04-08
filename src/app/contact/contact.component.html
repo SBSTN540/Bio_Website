@@ -1,23 +1,21 @@
-<!doctype html>
-<!-- <html lang="en"> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script> -->
-<script src ='./contact.component.ts'></script>
-<body>
-  <div id='container'>
-  <form id='contactForm' (ngSubmit)='send()'>
-    <label class='req' for='name'>Name </label><br>
-    <input type='text' id='name' name='name' value=''><br>
+
+<script src ="./contact.component.ts"></script>
+<!-- <body> -->
+  <div id="container">
+  <form id="contactForm" (ngSubmit)="send()">
+    <label class="req" for="name">Name </label><br>
+    <input type="text" id="name" name="name" value=""><br>
     <br>
     <!-- <label class="req" for="lname">Last name </label><br> -->
-    <!-- <input type='text' id='lname' name='lname' value=''><br> -->
-    <label class='req' for='email'>Email </label><br>
-    <input type='text' id='email' name='lname' value=''><br>
+    <!-- <input type="text" id="lname" name="lname" value=""><br> -->
+    <label class="req" for="email">Email </label><br>
+    <input type="text" id="email" name="lname" value=""><br>
     <br>
-    <label class='req' for='message'>Message</label><br>
-    <textarea id='message' rows='15' cols='80'></textarea><br>
-    <!-- <input id='sbutton' type='submit' ng-click='send()' value='Submit'> -->
-    <button id='sbutton' type='submit'>Submit</button>
+    <label class="req" for="message">Message</label><br>
+    <textarea id="message" rows="15" cols="80"></textarea><br>
+    <!-- <input id="sbutton" type="submit" ng-click="send()" value="Submit"> -->
+    <button id="sbutton" type="submit">Submit</button>
   </form>
 
   </div>
-</body>
+<!-- </body> -->

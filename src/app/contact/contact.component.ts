@@ -53,7 +53,7 @@ export class ContactComponent implements OnInit {
         );
       }
       else
-        alert('Missing or invalid information');
+        alert('Missing information');
   }
 
 

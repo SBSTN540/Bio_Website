@@ -5,16 +5,13 @@ img {
 
 
 #smokey {
-  // padding-top: px;
   font-family: sans-serif;
-  // padding: 0%;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 35%;
-  // background-color: white;
   transform: translate(-50%, -50%);
 
-  h1 {
+  h1, h2 {
     // font-weight: 5em;
     animation: animate 2.5s linear ;
     margin-bottom: -15px;
@@ -24,7 +21,7 @@ img {
     font-size: 1.25em;
     font-weight: bold;
     animation: animate 2.5s linear;
-
+    // margin-bottom: -10px;
     a {
       color: #3986D3;
       text-decoration: none;
