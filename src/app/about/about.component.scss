@@ -3,6 +3,7 @@ h2 {
   margin-bottom: -15px
 }
 #about {
+
   margin-left: 20%;
   margin-top: 1%;
   font-family: sans-serif;
@@ -10,6 +11,26 @@ h2 {
   font-weight: bold;
   height: auto;
   width: 60%;
+  animation: animate 2.5s linear;
   // background: green;
+
+}
+
+@keyframes animate {
+  0%{
+    filter: blur(0);
+  }
+  40%{
+    filter: blur(20px);
+  }
+  80%{
+    filter: blur(0);
+  }
+  100%{
+    filter: blur(0);
+  }
+  0%{
+    filter: blur(0);
+  }
 
 }

@@ -11,28 +11,21 @@ label {
 }
 
 #container {
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
   padding: 50px;
   width:60%;
   height: auto;
-  // left:50%;
   text-align: center;
-  // top:150px;
-  margin-top: 150px;
-  // margin-bottom: 50px;
-  margin-right: auto;
-  margin-left: auto;
   background: $primary;
   border-radius: 10px;
 }
 
 #contactForm {
-  // background: black;
   font-family: sans-serif;
   font-weight: bold;
   color: white;
-  // margin: 0 auto;
-
-  // left: 50%;
 }
 
 #sbutton {
