@@ -14,6 +14,10 @@ h2 {
   animation: animate 2.5s linear;
   // background: green;
 
+  a {
+    color: #3986D3;
+    text-decoration: none;
+    }
 }
 
 @keyframes animate {
