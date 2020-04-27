@@ -1,19 +1,19 @@
+
 img {
   width: auto;
-  // max-height: 400px;
   max-width: 90%;
   height:auto;
 }
 
+#content {
+  // margin-bottom: 10%;
+}
 
 #smokey {
   font-family: sans-serif;
   margin-top: 2%;
   margin-left: 5%;
-  // position: relative;
-  // top: 45%;
-  // left: 35%;
-  // transform: translate(-50%, -50%);
+  margin-bottom: 40px;
   animation: animate 2.5s linear;
   h1 {
     // animation: animate 2.5s linear;

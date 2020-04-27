@@ -1,15 +1,6 @@
 $primary: linear-gradient(-225deg, black 0%, #363636 48%, #B9B9B9 100%);
 // $primary: linear-gradient(-225deg, #000000   30%, #AFAFAF 48%, #000001 100%);
 
-body {
-    background-image: radial-gradient(73% 147%, #F8FCFF 59%, #FBFDFF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-    background-blend-mode: screen;
-    height: auto;
-}
-
-header {
-
-}
 
 #navbar {
     font-family: 'ZCOOL KuaiLe';
@@ -54,15 +45,12 @@ header {
 #footer {
   background:black;
   width: 100%;
-  height:20px;
-  position:absolute;
-  bottom: 0px;
-  padding: 1em 0;
-
-
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 10px;
   font-family: sans-serif;
   font-weight:lighter;
   color: white;
   text-align: center;
-
 }

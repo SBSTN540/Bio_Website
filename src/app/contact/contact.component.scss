@@ -1,5 +1,10 @@
 $primary: linear-gradient(-225deg, black 0%, #363636 48%, #B9B9B9 100%);
 
+// body {
+//   // height: auto;
+//     min-height: 100%;
+// }
+
 .req::after{
   // font-weight: bold;
   content: "*";
@@ -15,19 +20,21 @@ textarea {
     max-height: 100%;
 }
 
-#container {
+#content {
+    margin-bottom: 30px;
+}
+
+#contactForm {
   margin-top: 5%;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 100px;
   padding: 50px;
   width:60%;
   height: auto;
   text-align: center;
   background: $primary;
   border-radius: 10px;
-}
-
-#contactForm {
   font-family: sans-serif;
   font-weight: bold;
   color: white;

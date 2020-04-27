@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-body, html {
-  margin: 0px;
+body {
+  margin: 0;
+  height:auto;
+  background-image: radial-gradient(73% 147%,#F8FCFF 59%, #FBFDFF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+  background-blend-mode: screen;
+}
+
+app-root{
+  // min-height: 100vh;
 }
